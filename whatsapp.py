@@ -1,0 +1,10 @@
+import pywhatkit as kit
+print('First, make sure whatsapp web is logged in, in your laptop')
+cc = input("Enter country code: ")
+number = input('Enter number you want to send message to: ')
+msg = input('Enter message you want to send: ')
+time = input('Enter time you want to send msg at \n(Call time must be greater than one minute as web.whatsapp.com takes some time to load): ')
+time = time.split(':')
+hour = int(time[0])
+minutes = int(time[1])
+kit.sendwhatmsg(cc+number, msg, hour, minutes)
