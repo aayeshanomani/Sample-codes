@@ -1,0 +1,43 @@
+body{
+    background-color: lightslategray;
+}
+
+.s-psw{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: mediumaquamarine;
+    padding: 6px 4px;
+    background-color: lavenderblush;
+    border: none;
+    border-bottom: 1px solid lemonchiffon;
+    margin-left: 43%;
+    margin-top: 15%;
+}
+
+.s-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: lightcoral;
+    padding: 14px 24px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0px 4px 12px lightgreen;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 250ms ease;
+}
+
+.s-btn:hover{
+    background: lightpink;
+    box-shadow: 0px 4px 12px lightseagreen;
+}
+
+.s-btn:active{
+    background: lightyellow;
+    transform: scale(0.98);
+}
