@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Drawing Board
+        </title>
+        <link rel="stylesheet" href="draw.css">
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="draw.js"></script>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+
+        <div class="colWrap">
+            <div data-color='#654597' onclick="setcColor(this)" class="del colPur"></div>
+            <div data-color='#B9E3C6' onclick="setcColor(this)" class="del colBlu"></div>
+            <div data-color='#23395B' onclick="setcColor(this)" class="del colDarkBlu"></div>
+            <div data-color='#FFE156' onclick="setcColor(this)" class="del"></div>
+        </div>
+    </body>
+</html>

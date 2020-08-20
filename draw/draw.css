@@ -1,0 +1,42 @@
+#canvas{
+    background-color: #F75590;
+}
+
+.colWrap{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+.del{
+    width: 20px;
+    height: 20px;
+    border-radius: 45%;
+    cursor: pointer;
+    background-color: #C0D684;
+    display: inline-block;
+    margin: 6px;
+    transition: 250ms ease;
+}
+
+.del:active{
+    transform: scale(0.9);
+}
+
+.del:hover{
+    opacity: 0.8;
+}
+
+.colPur{
+    background-color: #654597;
+}
+
+.colBlu{
+    background-color: #B9E3C6;
+}
+
+.colDarkBlu{
+    background-color: #23395B;
+}
