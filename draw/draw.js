@@ -8,8 +8,6 @@ $( document ).ready(function() {
         y: 0
     };
 
-    
-
     document.addEventListener('mousemove', draw);
     document.addEventListener('mousedown', mousePosition);
     document.addEventListener('mouseenter', mousePosition);
